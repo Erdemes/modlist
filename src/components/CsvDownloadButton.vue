@@ -48,7 +48,7 @@ export default {
 
       const element = document.createElement('a');
       element.setAttribute('href', `data:text/html;base64,${templateB64}`);
-      element.setAttribute('download', `ArmaForces_${this.title}.csv`);
+      element.setAttribute('download', `SAT7_${this.title}.csv`);
 
       element.style.display = 'none';
       document.body.appendChild(element);

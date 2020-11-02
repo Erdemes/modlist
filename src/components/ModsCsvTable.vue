@@ -4,17 +4,17 @@
     <b-popover target="csv-type-help" placement="bottom" triggers="hover" >
       <template slot="title">
         <div style="color: black;">
-          Help
+          Yardım
         </div>
       </template>
       <div style="color: black;">
-        <strong>Required</strong> - must be loaded by client and server
+        <strong>Zorunlu</strong> - Client ve Server tarafından yüklenmesi zorunlu modlar
         <br/>
-        <strong>Optional</strong> - loaded by server, allowed to be loaded by client (eg. maps)
+        <strong>Opsiyonel</strong> - Server tarafından yüklenmiş, Client tarafından yüklenmesine izin verilen modlar
         <br/>
-        <strong>Clientside</strong> - allowed to be loaded by client
+        <strong>Clientside</strong> - Client tarafından yüklenen modlar
         <br/>
-        <strong>Serverside</strong> - loaded by server only
+        <strong>Serverside</strong> - Sadece server tarafından yüklenen modlar
       </div>
     </b-popover>
 

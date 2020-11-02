@@ -2,7 +2,7 @@ import Papa from 'papaparse';
 import _filter from 'lodash/filter';
 
 // eslint-disable-next-line
-let BASE_URL = 'https://server.armaforces.com:8888/';
+let BASE_URL = 'http://modlist.sat7.net';
 if (process.env.NODE_ENV !== 'production') {
   // BASE_URL = 'http://localhost:8080/';
 }
@@ -28,7 +28,7 @@ export const getModsetData = modset =>
     .then(x => x.data);
 
 export const getCurrentModset = () =>
-  fetch(`${BASE_URL}/current.txt?${Date.now()}`)
+  fetch(`${BASE_URL}/modsets/current.txt?${Date.now()}`)
     .then(resp => resp.text())
     .then((current) => {
       // Remove BOM

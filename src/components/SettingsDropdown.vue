@@ -15,7 +15,7 @@ export default {
   name: 'SettingsDropdown',
   computed: {
     nextLang() {
-      return this.$i18n.locale === 'en' ? 'pl' : 'en';
+      return this.$i18n.locale === 'en' ? 'tr' : 'en';
     },
   },
   methods: {

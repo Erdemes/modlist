@@ -2,8 +2,8 @@
   <div id="app">
     <b-navbar type="dark" variant="dark">
       <div class="container">
-          <b-navbar-brand class="logo" href="https://armaforces.com">
-            ArmaForces
+          <b-navbar-brand class="logo" href="https://sat7.net">
+            SA-T7
           </b-navbar-brand>
           <b-navbar-nav>
             <!-- Download -->
@@ -28,8 +28,7 @@
 
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
-            <!-- <b-nav-item href="https://armaforces.com/">Main page</b-nav-item> -->
-            <!-- <b-nav-item href="https://forum.armaforces.com/">Forum</b-nav-item> -->
+            <!-- <b-nav-item href="https://sat7.net">Ana Sayfa</b-nav-item> -->
             <SettingsDropdown></SettingsDropdown>
           </b-navbar-nav>
       </div>

@@ -39,7 +39,7 @@ export default {
 
       const element = document.createElement('a');
       element.setAttribute('href', `data:text/html;base64,${templateB64}`);
-      element.setAttribute('download', `ArmaForces_${this.getTitle()}.html`);
+      element.setAttribute('download', `SAT7_${this.getTitle()}.html`);
 
       element.style.display = 'none';
       document.body.appendChild(element);
