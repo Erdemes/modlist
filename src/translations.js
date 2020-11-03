@@ -54,7 +54,7 @@ export default {
       required: 'Zorunlu',
       select: 'Mod Listesi Seç',
       yours: 'Sizin Modlarınız',
-      default_clientside: 'Varsayılan Clientside Modlar',
+      default_clientside: 'Tüm Modlar',
       table: {
         modname: 'Mod İsmi',
         include: 'Dahil et?',
