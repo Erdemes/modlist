@@ -2,7 +2,7 @@ import Papa from 'papaparse';
 import _filter from 'lodash/filter';
 
 // eslint-disable-next-line
-let BASE_URL = 'http://modlist.sat7.net';
+let BASE_URL = 'https://modlist.sat7.net';
 if (process.env.NODE_ENV !== 'production') {
   // BASE_URL = 'http://localhost:8080/';
 }
