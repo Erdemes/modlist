@@ -62,7 +62,7 @@ export default {
         type: 'Tip',
       },
       types: {
-        optional: 'Opsiyopnel',
+        optional: 'Opsiyonel',
         required: 'Zorunlu',
         serverside: 'Serverside',
         clientside: 'Clientside',
